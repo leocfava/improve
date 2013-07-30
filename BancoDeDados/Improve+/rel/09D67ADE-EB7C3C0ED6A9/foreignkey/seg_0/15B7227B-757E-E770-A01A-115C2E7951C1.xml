@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15B7227B-757E-E770-A01A-115C2E7951C1" name="LabelTipoFormaContatoToEmail">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:22:01 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<containerWithKeyObject>D56809E6-CD6D-5A99-DCC5-9DE5FF0197BC</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>F80520E3-318D-50E5-F1BC-5F791E9F3670</localFKIndex>
+<keyObject>1A49F959-688C-95E9-5CE2-8601F3D38C7E</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

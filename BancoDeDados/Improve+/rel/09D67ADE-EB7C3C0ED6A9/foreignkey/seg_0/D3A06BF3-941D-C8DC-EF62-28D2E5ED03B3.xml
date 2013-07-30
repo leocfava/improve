@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3A06BF3-941D-C8DC-EF62-28D2E5ED03B3" name="TipoLoteAnimalToLoteAnimal">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 20:32:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<containerWithKeyObject>71D0688D-BB35-4394-85B3-F5AD2196506C</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>DB92CD95-CF69-4CA7-C055-9409DEA93A6F</localFKIndex>
+<keyObject>CD43312A-DC7C-28D9-924B-CA321EDB575C</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

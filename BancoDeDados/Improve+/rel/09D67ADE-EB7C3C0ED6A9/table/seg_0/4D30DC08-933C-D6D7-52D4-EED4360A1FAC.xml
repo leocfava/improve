@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D30DC08-933C-D6D7-52D4-EED4360A1FAC" name="Transportadora">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 20:39:07 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDTransportadora" id="53768567-3EA5-4FD7-AF72-C4C93E8B4049">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 20:39:30 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodigoANTT" id="9975B703-B1A4-A355-F69E-453876FB1D20">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 20:44:53 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDPessoa" id="D4C2A732-F084-7E50-374C-FE0E27EB49ED">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 21:12:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>3B4ABE41-1678-0E0C-5353-429EB79108C5</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="206656E2-2E86-54ED-9DEB-D8BB42F36C7A" referredColumn="3B4ABE41-1678-0E0C-5353-429EB79108C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74E1ACCD-68C4-ED69-AC3D-3083865A1C3C" name="Transportador_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 20:39:30 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53768567-3EA5-4FD7-AF72-C4C93E8B4049"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6130D594-3702-7134-D5BF-4CE6708BBE2A" name="PessoaToTransportadora">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 21:12:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4C2A732-F084-7E50-374C-FE0E27EB49ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

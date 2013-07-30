@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="735F20A7-259B-99B8-AB8B-6CA1C895BC11" name="IdentificacaoEspecime">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 14:26:12 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDIdentificacaoEspecime" id="80ADB2CD-5382-E1B7-DB38-F3E752987E25">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 14:26:28 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDTipoIdentificacaoEspecime" id="47075CFE-9826-6DE5-B622-E0E5EC8B5DE6">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 14:28:02 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>5D041B25-EE9A-A0BB-25C3-DDC383D7D78A</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1C7FA75-D468-86A5-5245-72F96C1B08DD" referredColumn="5D041B25-EE9A-A0BB-25C3-DDC383D7D78A"/>
+</associations>
+</Column>
+<Column name="IDEspecime" id="FF59340D-CD75-EF60-FEA5-0B23965E02E3">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 14:28:17 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>32E3241B-7A93-886B-9722-39EBB21E6524</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3D2E59E-0604-018E-0951-514439354044" referredColumn="32E3241B-7A93-886B-9722-39EBB21E6524"/>
+</associations>
+</Column>
+<Column name="NumeroIdentificacao" id="3F2D3054-E825-F8CE-595E-8D3AA5FB1E3B">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:08:22 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5F5CD5D5-C22B-F818-5C4B-47B30CBB0C94</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B0B4B07-E316-A472-92D6-44D51F563FDC" name="IdentificacaoEspecime_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 14:26:28 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80ADB2CD-5382-E1B7-DB38-F3E752987E25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B3D44C6-0917-300B-9789-AF4F4581BDE6" name="IdentificacaoEspecime_IDEspecime_UN">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:09:19 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47075CFE-9826-6DE5-B622-E0E5EC8B5DE6"/>
+<colUsage columnID="FF59340D-CD75-EF60-FEA5-0B23965E02E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44336069-64F3-BBAD-D239-D66E5D3D3E41" name="TipoIdentificacaoEspecimeToIdentificacaoEspecime">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 14:28:02 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47075CFE-9826-6DE5-B622-E0E5EC8B5DE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3469A2B0-70B4-1C5F-1952-774C352564FC" name="EspecimeToIdentificacaoEspecime">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 14:28:17 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF59340D-CD75-EF60-FEA5-0B23965E02E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

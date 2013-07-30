@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7BDCF97-15AA-9DCA-8CB2-BD76B113C63E" name="EspecimeToTimeline">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:19:55 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<containerWithKeyObject>3B268290-3E97-2641-4E41-351B14956122</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>BB7B997B-2A18-F4A4-6F3C-EE783B2BF9BB</localFKIndex>
+<keyObject>6D634E4A-25CF-1B54-CFC5-C4A23DCBCE90</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

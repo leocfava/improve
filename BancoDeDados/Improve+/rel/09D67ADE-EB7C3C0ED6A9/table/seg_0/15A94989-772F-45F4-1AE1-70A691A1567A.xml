@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15A94989-772F-45F4-1AE1-70A691A1567A" name="ContaCliente">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-20 22:06:19 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDContaCliente" id="894B1E71-6D3B-4FA3-428C-FC6186F55205">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-20 22:06:38 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FormaPagamento" id="42374F1A-FC3D-116E-DEA5-E350A8FF30B9">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-20 22:07:34 UTC</createdTime>
+<comment>B - Boleto&lt;br/&gt;C - Cartão de Credito</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>31AB0CD6-802B-E71A-7C78-5A171862EACE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataAberturaConta" id="415C9387-245F-1B2D-2DC1-25BC0A5400E7">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-20 22:07:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>F1356044-E64C-B1B5-0EE6-31A407E082BA</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Observacao" id="86B2BF74-1F41-1D30-7998-37980D42A497">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-20 22:23:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5F5CD5D5-C22B-F818-5C4B-47B30CBB0C94</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Situacao" id="52A612D9-E2E8-2C43-65F8-8074178BB8AD">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-20 22:41:47 UTC</createdTime>
+<comment>Aberta ou Fechada</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>31AB0CD6-802B-E71A-7C78-5A171862EACE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataFechamentoConta" id="CA62FB18-F2BC-62F1-3278-6F372B5BC515">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-20 22:41:47 UTC</createdTime>
+<comment>Obrigatorio quando a situacao for igual a Fechada</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>F1356044-E64C-B1B5-0EE6-31A407E082BA</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDPessoa" id="75EE3E7D-722F-59C1-8F29-846A704C90BA">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 19:06:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>3B4ABE41-1678-0E0C-5353-429EB79108C5</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FA156F3-952A-2FE5-ACAF-154BEA1E9D51" referredColumn="3B4ABE41-1678-0E0C-5353-429EB79108C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8272A180-FBCC-08E9-5A46-B45622D98938" name="ClientePlano_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-20 22:06:38 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="894B1E71-6D3B-4FA3-428C-FC6186F55205"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3D39ECB-060A-761F-3044-18BA421E57C9" name="ClientePlano_ClienteAcessoPlano_UN">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-20 22:13:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="82D4EBEF-E6A9-9541-BE13-C7AE215E248B" name="PessoaToContaCliente">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 19:06:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75EE3E7D-722F-59C1-8F29-846A704C90BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

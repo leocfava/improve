@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFAED7F8-B00A-9E1E-FDC6-66B7CCFD55F9" name="Endereco">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:56:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDEndereco" id="2AF4B0FD-FC69-5E34-774C-0911CA9DB375">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:57:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Logradouro" id="2CB36271-7039-8F3C-99EE-16A3A9E31A9C">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:57:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5F5CD5D5-C22B-F818-5C4B-47B30CBB0C94</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="97641C14-DA01-024A-D495-FCCD68721F64">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:57:41 UTC</createdTime>
+<comment>Deve aceitar número ou SN para quando o endereço não possuir número.</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A3B92A7A-3B2F-9F6C-E6BC-9000817715C7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="748D5EA4-C607-AC13-7DFB-F585260526C9">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:57:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bairro" id="CA4227D7-B88D-EFC3-CDD1-ED422D913278">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:57:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0962D7D0-961B-2C7B-15BF-BB3D490A9D09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Complemento" id="FCD4E8A3-90D7-8E09-5FAC-32F9D4A3B306">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:57:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5F5CD5D5-C22B-F818-5C4B-47B30CBB0C94</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDLabelTipoFormaContato" id="188AEF2D-032A-E7B4-F0BB-440AECBD9985">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:58:51 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>D227B42A-A67D-CD6F-44A5-E00BE5AEC8FA</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8AD7264-1520-1A54-A66C-27CF3A2C72C5" referredColumn="D227B42A-A67D-CD6F-44A5-E00BE5AEC8FA"/>
+</associations>
+</Column>
+<Column name="IDCidade" id="A3D468EC-D635-5807-0023-8BD84875C7F0">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:00:12 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>2D68EA9B-BD38-141C-E449-B632EF1B20DB</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9089054B-2957-0B63-CBF3-602A5B465CDD" referredColumn="2D68EA9B-BD38-141C-E449-B632EF1B20DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AA2EE75-2292-72FF-2597-7ED7732A728B" name="Endereco_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:57:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AF4B0FD-FC69-5E34-774C-0911CA9DB375"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="380D29FF-0BB1-660E-9648-F340A197435A" name="LabelTipoFormaContatoToEndereco">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:58:51 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="188AEF2D-032A-E7B4-F0BB-440AECBD9985"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE119B9A-2B0E-67CF-6505-1C1CE1B51BC2" name="CidadeToEndereco">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:00:12 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3D468EC-D635-5807-0023-8BD84875C7F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

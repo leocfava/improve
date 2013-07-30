@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B268290-3E97-2641-4E41-351B14956122" name="Timeline">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 14:00:13 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDTimeline" id="60E24E42-1DD6-E3D9-CEB2-FD00876D0501">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 14:00:36 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Especime_IDEspecime" id="438BAEA9-57B3-C921-0612-70AC1F03E1F0">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:19:55 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>32E3241B-7A93-886B-9722-39EBB21E6524</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7BDCF97-15AA-9DCA-8CB2-BD76B113C63E" referredColumn="32E3241B-7A93-886B-9722-39EBB21E6524"/>
+</associations>
+</Column>
+<Column name="Observacao" id="252FAEA3-273F-01BC-867F-13F38A40CA1E">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-29 13:48:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>5F35DB26-32D5-D04D-BE97-14077EB878D2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E140D9E-269A-092A-EDB6-02A0D34697DF" name="Timeline_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 14:00:36 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60E24E42-1DD6-E3D9-CEB2-FD00876D0501"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB7B997B-2A18-F4A4-6F3C-EE783B2BF9BB" name="EspecimeToTimeline">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:19:55 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="438BAEA9-57B3-C921-0612-70AC1F03E1F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

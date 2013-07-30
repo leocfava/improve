@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B9082AE-2DD8-2C40-17E3-9C7F34821CE6" name="ConversaoUnidadeMedida">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:58:39 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDConversaoUnidadeMedida" id="0BD44EC1-48C7-EB36-2FDB-89244B389D55">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 23:00:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OperadorMatematico" id="45BD2BC4-3E3F-71C2-6A1E-4889944E043E">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 23:00:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="*" description=""/>
+<valueDef value="+" description=""/>
+<valueDef value="-" description=""/>
+<valueDef value="/" description=""/>
+</listOfValues>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDUnidadeMedidaDe" id="C738926A-3B45-3371-DA9F-61210B6BCD88">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 23:00:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>B36E8BD6-51B0-695E-C013-B0E8CCA6CD03</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="993E7962-786D-B966-041F-81D0B547A49C" referredColumn="B36E8BD6-51B0-695E-C013-B0E8CCA6CD03"/>
+</associations>
+</Column>
+<Column name="IDUnidadeMedidaPara" id="7CFC881F-765C-D7EB-3E39-82601E803486">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 23:00:52 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>B36E8BD6-51B0-695E-C013-B0E8CCA6CD03</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="072FBF64-4ECE-1689-8842-6B177C6FA2D6" referredColumn="B36E8BD6-51B0-695E-C013-B0E8CCA6CD03"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36F1D4D1-EBEA-5D90-CB9A-48E2C3E11477" name="ConversaoUnidadeMedida_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 23:00:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BD44EC1-48C7-EB36-2FDB-89244B389D55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC3B12E8-B5A8-79B6-DB5E-06E38BDA282C" name="ConversaoUnidadeMedida_DEPARA_UN">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 23:01:49 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C738926A-3B45-3371-DA9F-61210B6BCD88"/>
+<colUsage columnID="7CFC881F-765C-D7EB-3E39-82601E803486"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C89737C1-3793-6FFB-9730-45393195DF11" name="UnidadeMedidaDeToConversaoUnidadeMedida">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 23:00:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C738926A-3B45-3371-DA9F-61210B6BCD88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B411EFAA-AD55-8DA7-4389-114070853335" name="UnidadeMedidaParaToConversaoUnidadeMedida">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 23:00:52 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CFC881F-765C-D7EB-3E39-82601E803486"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

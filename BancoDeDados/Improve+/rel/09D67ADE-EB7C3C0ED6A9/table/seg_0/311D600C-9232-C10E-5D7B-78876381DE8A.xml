@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="311D600C-9232-C10E-5D7B-78876381DE8A" name="NaturezaJuridica">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:24:48 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDNaturezaJuridica" id="29840F8F-807E-5D3A-3145-6BC79D758045">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:25:44 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo" id="2EE61D17-0F5E-8172-2162-9761DA64636B">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:25:44 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5F5CD5D5-C22B-F818-5C4B-47B30CBB0C94</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="E2C5EEBC-3AFF-4D2C-E3C1-BB6614BEB3A0">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:25:44 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0962D7D0-961B-2C7B-15BF-BB3D490A9D09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E1C56F9-D13C-CAAB-4575-E704DA7529BC" name="NaturezaJuridica_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:25:44 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29840F8F-807E-5D3A-3145-6BC79D758045"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

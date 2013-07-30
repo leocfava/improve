@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B17AC25C-5B1B-EF86-D383-4EB1272F7241" name="ImagemTimeline">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-29 13:39:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDImagemTimeline" id="B54AF009-DB0C-ECB9-5D60-CB0C0C367A6F">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-29 13:39:48 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data" id="D4A0A216-6F86-6AE3-15D3-BADFD99867A1">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-29 13:39:48 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>F1356044-E64C-B1B5-0EE6-31A407E082BA</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDTimeline" id="F242E2FC-1320-5001-AEE6-236E243CDD64">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-29 13:45:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>60E24E42-1DD6-E3D9-CEB2-FD00876D0501</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DB4325B-F81C-78A7-EFAD-31AD79F62DBA" referredColumn="60E24E42-1DD6-E3D9-CEB2-FD00876D0501"/>
+</associations>
+</Column>
+<Column name="Privacidade" id="CD7899FC-9D42-F126-857E-95D87139C739">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-29 13:46:52 UTC</createdTime>
+<comment>Campo para indicar se a foto deve ser exibida na timeline do especime.</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>31AB0CD6-802B-E71A-7C78-5A171862EACE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imagem" id="EB9E327A-CE22-57EF-294A-6D37117D6E0A">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-29 13:47:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<domain>65D6216B-9B8D-E505-31AE-34E713D33055</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A61F7CF-A7D6-C947-B100-DCCA55249FBC" name="ImagemEspecime_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-29 13:39:48 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B54AF009-DB0C-ECB9-5D60-CB0C0C367A6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5094028A-2557-F201-7476-E63F5F21D021" name="TimelineToImagemEspecime">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-29 13:45:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F242E2FC-1320-5001-AEE6-236E243CDD64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F275B8A-1206-74BE-EC80-E2445423B82E" name="ContaClientePlano">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 19:15:17 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDContaClientePlano" id="6F100AF1-C832-45D2-7230-F7E6C5FBBE97">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 19:15:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDContaCliente" id="2C78E336-7AD4-9416-14EC-4C3436C81B89">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 19:16:00 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>894B1E71-6D3B-4FA3-428C-FC6186F55205</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87EB5E1C-FC53-D35A-CAC5-FE210D446CB0" referredColumn="894B1E71-6D3B-4FA3-428C-FC6186F55205"/>
+</associations>
+</Column>
+<Column name="IDPlano" id="71AC08C3-4F67-1A24-DD5F-A0B8C54F957A">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 19:16:13 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>EA48B8FA-574A-F3EA-177E-D460D6379CAE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE0DACDA-EA3B-A781-A10B-8A7A166B3027" referredColumn="EA48B8FA-574A-F3EA-177E-D460D6379CAE"/>
+</associations>
+</Column>
+<Column name="Valor" id="CA113D0C-A54E-3218-574E-64CC9450C700">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 19:16:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<domain>928B1124-FD5B-063D-5272-4CD2343FA8EC</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataContratacaoPlano" id="DA1C5668-ACDF-5B1F-E57D-8C5D22041571">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 19:17:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>F1356044-E64C-B1B5-0EE6-31A407E082BA</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76D2CCC2-8E1B-1424-DF9F-2E1511CE561F" name="ContaClientePlano_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 19:15:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F100AF1-C832-45D2-7230-F7E6C5FBBE97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F09EC29C-D339-4E7B-D1DC-5A7EC0F7D685" name="ContaClientePlano_CntClntPlnDt_UN">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 19:19:54 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C78E336-7AD4-9416-14EC-4C3436C81B89"/>
+<colUsage columnID="71AC08C3-4F67-1A24-DD5F-A0B8C54F957A"/>
+<colUsage columnID="DA1C5668-ACDF-5B1F-E57D-8C5D22041571"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61E15BDD-95BE-7FD2-90E8-2C1C05BE17B3" name="ContaClienteToContaClientePlano">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 19:16:00 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C78E336-7AD4-9416-14EC-4C3436C81B89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B43A4C4C-5D8A-5EB0-ABC6-0FE127F56F18" name="PlanoToContaClientePlano">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 19:16:13 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71AC08C3-4F67-1A24-DD5F-A0B8C54F957A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

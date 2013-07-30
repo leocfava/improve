@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10BD4781-0BDA-76EC-DD03-4242878E0F13" name="UsuarioGrupoUsuario">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:06:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDUsuarioGrupoUsuario" id="E80DB176-E12B-B3C7-B0ED-7CE5985F2C94">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:07:45 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDGrupoUsuario" id="485D5FC0-97AC-09CC-8F04-64935320D5D3">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:07:52 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>5E529516-AB45-E915-6AE7-1534DB844EF8</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D51C0F39-4C73-AD52-F249-69662A8E35DC" referredColumn="5E529516-AB45-E915-6AE7-1534DB844EF8"/>
+</associations>
+</Column>
+<Column name="IDUsuario" id="39BCABDE-FB44-43B9-53D2-DC774BCE1AB2">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:08:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>150DECD9-ED76-DB6D-A7CC-60F5022B9FD1</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDBECF09-83A0-F86C-1341-F1B87112C32F" referredColumn="150DECD9-ED76-DB6D-A7CC-60F5022B9FD1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6507B243-2B02-8824-85C5-66D197460FF0" name="UsuarioGrupoUsuario_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:07:45 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E80DB176-E12B-B3C7-B0ED-7CE5985F2C94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61BF4539-D7C9-B4B6-B95C-1BBB7C3650C4" name="UsuarioGrupoUsuario_Usuario_UN">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:30:57 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="485D5FC0-97AC-09CC-8F04-64935320D5D3"/>
+<colUsage columnID="39BCABDE-FB44-43B9-53D2-DC774BCE1AB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F525ABA8-6479-6131-3E4B-897718B9D3BB" name="GrupoUsuarioToUsuarioGrupoUsuario">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:07:52 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="485D5FC0-97AC-09CC-8F04-64935320D5D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BACB8CC-155C-129D-6DB2-993D54DD4B39" name="UsuarioToUsuarioGrupoUsuario">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:08:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39BCABDE-FB44-43B9-53D2-DC774BCE1AB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

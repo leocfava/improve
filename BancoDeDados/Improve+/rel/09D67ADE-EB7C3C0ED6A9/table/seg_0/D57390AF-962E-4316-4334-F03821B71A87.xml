@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D57390AF-962E-4316-4334-F03821B71A87" name="Fornecedor">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 20:55:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDFornecedor" id="F200B805-128D-816F-830B-330D6EBC67AD">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 20:56:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDPessoa" id="11EA8427-9CC0-2A53-7B8B-81C5257432C0">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 21:11:45 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>3B4ABE41-1678-0E0C-5353-429EB79108C5</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF695D3E-0632-1B76-941A-1F52C2F7703C" referredColumn="3B4ABE41-1678-0E0C-5353-429EB79108C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2852269D-16CC-B300-DE95-5EE4E912BADD" name="Fornecedor_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 20:56:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F200B805-128D-816F-830B-330D6EBC67AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0F16A92-0EE3-2DDC-C843-76F3DF80B863" name="PessoaToFornecedor">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 21:11:45 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11EA8427-9CC0-2A53-7B8B-81C5257432C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

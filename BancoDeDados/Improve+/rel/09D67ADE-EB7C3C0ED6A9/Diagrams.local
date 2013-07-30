@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="E5BFA420-8809-5B00-5B77-5AF0BD6EE138" name="Improve" visible="false"/>
+   <object objectType="sub_view" objectID="2ADB0B0C-0D0E-E7F3-829B-15C6BDAFA2DE" name="Acesso" visible="true"/>
+   <object objectType="sub_view" objectID="4ABD070C-4E52-8315-6E3B-2E678C4AB499" name="Cadastro" visible="false"/>
+   <object objectType="sub_view" objectID="73316D9C-8A33-7F1F-0021-9FCC2407CE14" name="Estoque" visible="false"/>
+   <object objectType="sub_view" objectID="A2AC31F1-7F8F-1ECF-2E02-5C1EFD8B92C0" name="Permissao" visible="true"/>
+   <object objectType="sub_view" objectID="712FB816-52DD-E1C2-EE5B-40C2A68E7B73" name="Pesagem" visible="true"/>
+   <object objectType="sub_view" objectID="3B5EFCB9-2AA8-A131-D712-7A589ED64A03" name="Zootecnico" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

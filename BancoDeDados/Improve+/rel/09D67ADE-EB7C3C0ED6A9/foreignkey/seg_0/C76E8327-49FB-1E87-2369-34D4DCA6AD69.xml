@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C76E8327-49FB-1E87-2369-34D4DCA6AD69" name="RegistroZootecnicoToItemTimeLine">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:42:54 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<containerWithKeyObject>6BCE539B-7788-091C-4A30-B5B6BCA6BBC2</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>A74E1313-8E99-5914-7B61-C1694A977601</localFKIndex>
+<keyObject>B8690BEA-98F0-0638-F846-5C0CBCD1C719</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

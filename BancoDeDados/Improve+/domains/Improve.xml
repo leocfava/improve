@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="Improve">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NOME" id="0962D7D0-961B-2C7B-15BF-BB3D490A9D09">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-12 23:40:34 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>100</dataTypeSize>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="FLAG" id="31AB0CD6-802B-E71A-7C78-5A171862EACE">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-13 19:47:43 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CODIGO" id="4CCAA608-ED20-CC33-8EB7-6A653249BF76">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-12 23:39:57 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="TEXTOLONGO" id="5F35DB26-32D5-D04D-BE97-14077EB878D2">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-13 00:02:38 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT028</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="TEXTO" id="5F5CD5D5-C22B-F818-5C4B-47B30CBB0C94">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-13 00:01:48 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>200</dataTypeSize>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="IMAGEM" id="65D6216B-9B8D-E505-31AE-34E713D33055">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-13 00:02:16 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT029</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CNPJ" id="66872638-5F1A-C1D7-5807-B8DF5207C0F0">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-12 23:58:28 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>14</dataTypeSize>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="DESCRICAO" id="77F60A4C-63CC-DA02-9FB4-761691B20D12">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-12 23:40:21 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>100</dataTypeSize>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERO" id="7B48B76B-1D7B-1F55-36FE-E3DAA240D81F">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-13 01:33:53 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="INSCRICAOMUNICIPAL" id="91C50286-32A5-F181-9804-035CAF8A5600">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-12 23:59:51 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>20</dataTypeSize>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="MOEDA" id="928B1124-FD5B-063D-5272-4CD2343FA8EC">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-20 15:37:46 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT043</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="PESO" id="A21B0C12-75A0-1037-6396-141A17359EDB">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-26 21:38:33 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="SIGLA" id="A3B92A7A-3B2F-9F6C-E6BC-9000817715C7">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-13 01:47:22 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>5</dataTypeSize>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="ID" id="BDF6539C-5E3A-C952-7EB3-455864B8FCB8">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-12 23:39:34 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="DATAHORA" id="D70C9442-647D-832B-8824-B63D5AB8F345">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-26 20:26:31 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT046</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="DATA" id="F1356044-E64C-B1B5-0EE6-31A407E082BA">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-12 23:43:35 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT008</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="LOGICO" id="F2C937B2-770F-E6FD-E123-91C37C8325FC">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-12 23:40:53 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <defaultValue>true</defaultValue>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT006</logicalDatatype>
+         <listOfValues>
+            <valueDef value="false" description=""/>
+            <valueDef value="true" description=""/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="ISCRICAOESTADUAL" id="F4D28047-2128-0FFC-974D-582EA00C8A19">
+         <createdBy>Leonardo</createdBy>
+         <createdTime>2013-07-13 00:00:24 UTC</createdTime>
+         <generatorID>Gerado pelo usuário</generatorID>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>20</dataTypeSize>
+         <fileName>Improve</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

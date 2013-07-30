@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A139D09F-0BE3-E04F-AD43-F9CE4527C59D" name="Especime">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 13:53:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDEspecime" id="32E3241B-7A93-886B-9722-39EBB21E6524">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 13:54:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDSubespecie" id="455EB24E-FD47-73A2-E7B7-3A7C5A98433A">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:11:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>9ED221A7-1505-B188-72A3-39E3E06C2EC0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFCE6FA3-0562-8DA8-47C4-B29375DAA8F4" referredColumn="9ED221A7-1505-B188-72A3-39E3E06C2EC0"/>
+</associations>
+</Column>
+<Column name="Origem" id="38FAB231-C558-69CD-35B1-1E4D6559D94D">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:14:39 UTC</createdTime>
+<comment>Origem - Obrigatório, deve disponibilizar as opções “Plantel” e “Aquisição”;</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>31AB0CD6-802B-E71A-7C78-5A171862EACE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDEspecimePai" id="76CC9E52-38CC-85D0-6264-EB0363EA2A81">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:15:12 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>32E3241B-7A93-886B-9722-39EBB21E6524</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFD42C11-4C18-BBC4-1858-285A2A683F00" referredColumn="32E3241B-7A93-886B-9722-39EBB21E6524"/>
+</associations>
+</Column>
+<Column name="IDEspecimeFilho" id="AC6697BB-7302-4D5F-6920-499DE967F1B3">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:15:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>32E3241B-7A93-886B-9722-39EBB21E6524</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81C14A22-E306-68CD-99E0-FA419CB907F7" referredColumn="32E3241B-7A93-886B-9722-39EBB21E6524"/>
+</associations>
+</Column>
+<Column name="DataNascimento" id="9E2B6477-CB6D-D632-9758-BB2E3AC30A44">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:17:03 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>F1356044-E64C-B1B5-0EE6-31A407E082BA</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataInclusaoPlantel" id="2FD4202D-8545-8F63-B472-ACBF23E7AECD">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:19:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>F1356044-E64C-B1B5-0EE6-31A407E082BA</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sexo" id="7C68FF18-6545-D7C0-A88E-694EDC87C2AB">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:19:41 UTC</createdTime>
+<comment>Sexo - Obrigatório, deve disponibilizar as opções “Macho” e “Fêmea”;</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>31AB0CD6-802B-E71A-7C78-5A171862EACE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Observacao" id="D8196994-282C-0708-7210-1CC63095D8B9">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:19:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>5F35DB26-32D5-D04D-BE97-14077EB878D2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D634E4A-25CF-1B54-CFC5-C4A23DCBCE90" name="Animal_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 13:54:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32E3241B-7A93-886B-9722-39EBB21E6524"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="612ED78A-9BB1-A250-4BB9-DE9858BAA5F9" name="TaxonomiaToEspecime">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:11:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="455EB24E-FD47-73A2-E7B7-3A7C5A98433A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C924CF2D-DC0B-89AF-C0B1-5E180661F318" name="EspecimePaiToEspecimeFilho">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:15:12 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76CC9E52-38CC-85D0-6264-EB0363EA2A81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C71FA2C-49AD-CA2B-7E90-7F0D11F11627" name="EspecimeMaeToEspecimeFilho">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:15:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC6697BB-7302-4D5F-6920-499DE967F1B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

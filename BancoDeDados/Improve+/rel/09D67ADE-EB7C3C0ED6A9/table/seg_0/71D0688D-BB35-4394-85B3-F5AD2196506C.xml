@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71D0688D-BB35-4394-85B3-F5AD2196506C" name="LoteAnimal">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 20:31:57 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDLoteAnimal" id="1FE556A6-BDEC-7D90-5167-92A4886C5255">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 20:32:42 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo" id="A7F65F09-D6FB-8571-564F-D46690B1A95E">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 20:32:42 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4CCAA608-ED20-CC33-8EB7-6A653249BF76</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="92C419BB-E2BD-D2CF-37AC-54C05ADCC58B">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 20:32:42 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>77F60A4C-63CC-DA02-9FB4-761691B20D12</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDTipoLoteAnimal" id="DD7D35AD-0E1B-8180-5D4A-783099935655">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 20:32:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>A4EA2A93-FF4D-6296-A0EC-A31FEB1C3CFE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3A06BF3-941D-C8DC-EF62-28D2E5ED03B3" referredColumn="A4EA2A93-FF4D-6296-A0EC-A31FEB1C3CFE"/>
+</associations>
+</Column>
+<Column name="Ativo" id="8B9E0B67-1A5F-94A4-8E07-9BCFA2AF7949">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 20:34:04 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<defaultValue>true</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>F2C937B2-770F-E6FD-E123-91C37C8325FC</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32EDFBFF-1E22-B116-B73E-C4F89FFA23C6" name="LoteAnimal_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 20:32:42 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FE556A6-BDEC-7D90-5167-92A4886C5255"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB92CD95-CF69-4CA7-C055-9409DEA93A6F" name="TipoLoteAnimalToLoteAnimal">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 20:32:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD7D35AD-0E1B-8180-5D4A-783099935655"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

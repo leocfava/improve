@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="119632D9-6DE6-31DF-985C-7BD4373EC73F" name="Cidade">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:40:54 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDCidade" id="2D68EA9B-BD38-141C-E449-B632EF1B20DB">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:41:12 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDUF" id="FD8EA64D-B933-348C-406D-92513A1490F5">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:43:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>838662AD-9DA1-81A4-8F42-FD3FDCF9ACA3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0516C7B-4B8F-0647-8554-3D90E959BE10" referredColumn="838662AD-9DA1-81A4-8F42-FD3FDCF9ACA3"/>
+</associations>
+</Column>
+<Column name="Nome" id="2250A023-4713-32E1-2D79-79EA73B39369">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:46:05 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0962D7D0-961B-2C7B-15BF-BB3D490A9D09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E437B470-4286-0D2E-E3BE-DB79F2CB68F3" name="Cidade_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:41:12 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D68EA9B-BD38-141C-E449-B632EF1B20DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2FA843C-9FD1-5A3A-26E4-F379F43F451C" name="Cidade_UN_Nome">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:46:37 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2250A023-4713-32E1-2D79-79EA73B39369"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78130FA1-F88D-3624-6B54-E748566FFE78" name="UFToCidade">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:43:28 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD8EA64D-B933-348C-406D-92513A1490F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE0DACDA-EA3B-A781-A10B-8A7A166B3027" name="PlanoToContaClientePlano">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 19:16:13 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<containerWithKeyObject>8F275B8A-1206-74BE-EC80-E2445423B82E</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>B43A4C4C-5D8A-5EB0-ABC6-0FE127F56F18</localFKIndex>
+<keyObject>F7A5ECB6-70BD-8E9A-52CF-01A6058807ED</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

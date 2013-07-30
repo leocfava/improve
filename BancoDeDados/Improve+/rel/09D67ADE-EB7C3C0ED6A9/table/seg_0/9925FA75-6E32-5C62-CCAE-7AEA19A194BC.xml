@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9925FA75-6E32-5C62-CCAE-7AEA19A194BC" name="TagEspecime">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:20:02 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDTagEspecime" id="4B8EF853-D6C8-2BDE-DAFC-3A73A2D4DCC9">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:20:20 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDTag" id="953E2AB0-ACC3-7F9A-B0CB-ADF0E1F573A9">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:21:34 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>BDF963C6-CD7D-D39C-EC41-2204EDCE0DA2</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="725E7CAB-B675-96EB-D872-67ADF487C0F5" referredColumn="BDF963C6-CD7D-D39C-EC41-2204EDCE0DA2"/>
+</associations>
+</Column>
+<Column name="IDEspecime" id="B387B11D-3F82-4AF3-B4EC-C29B22A37F31">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:21:50 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>32E3241B-7A93-886B-9722-39EBB21E6524</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A4A8FA3-E42D-7DF5-9947-1CB95C6B41E7" referredColumn="32E3241B-7A93-886B-9722-39EBB21E6524"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0AC64E2-4AF4-2E2E-6EDC-BDE2CA532650" name="FlagEspecime_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:20:20 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B8EF853-D6C8-2BDE-DAFC-3A73A2D4DCC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CA61402-928D-F6D3-C18D-91568508A42E" name="TagToTagEspecime">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:21:34 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="953E2AB0-ACC3-7F9A-B0CB-ADF0E1F573A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76F77494-3103-4306-4CB9-0B5F16CEB78C" name="EspecimeToTagEspecime">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:21:50 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B387B11D-3F82-4AF3-B4EC-C29B22A37F31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

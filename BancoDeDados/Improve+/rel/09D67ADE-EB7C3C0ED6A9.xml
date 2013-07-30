@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Improve" id="09D67ADE-7309-AA5E-7E40-EB7C3C0ED6A9" mainViewID="E5BFA420-8809-5B00-5B77-5AF0BD6EE138">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-12 23:35:02 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

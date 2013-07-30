@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C11317F-4CB8-3F8F-BEB7-E17F5FF8030C" name="RegistroZootecnico">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 14:01:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDRegistroZootecnico" id="C4D31116-1371-8D2E-E2AB-62E441F19CDB">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 14:01:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="C7A05EF5-C9D7-E066-1888-5EE49AE913EC">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:38:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0962D7D0-961B-2C7B-15BF-BB3D490A9D09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ativo" id="09ED32C0-899A-9E6C-6DF6-EAB8726B4B64">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:38:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<defaultValue>true</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>F2C937B2-770F-E6FD-E123-91C37C8325FC</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoRegistroZootecnico_IDTipoRegistroZootecnico" id="C16A3803-08B1-D281-494D-7B2565EA3169">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:38:42 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>BD0BAD7E-4B60-8892-1416-401FFADFC987</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="586A25BD-7927-790B-B568-FB9522BA7693" referredColumn="BD0BAD7E-4B60-8892-1416-401FFADFC987"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8690BEA-98F0-0638-F846-5C0CBCD1C719" name="RegistroZootecnico_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 14:01:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4D31116-1371-8D2E-E2AB-62E441F19CDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76CA3750-70CC-9B9F-1C2E-25E73D570158" name="TipoRegistroZootecnicoToRegistroZootecnico">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:38:42 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C16A3803-08B1-D281-494D-7B2565EA3169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

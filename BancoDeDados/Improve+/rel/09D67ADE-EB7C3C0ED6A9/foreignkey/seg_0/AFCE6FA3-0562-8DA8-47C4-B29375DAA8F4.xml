@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AFCE6FA3-0562-8DA8-47C4-B29375DAA8F4" name="TaxonomiaToEspecime">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:11:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<containerWithKeyObject>A139D09F-0BE3-E04F-AD43-F9CE4527C59D</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>612ED78A-9BB1-A250-4BB9-DE9858BAA5F9</localFKIndex>
+<keyObject>3679976B-DEAC-49E7-E48D-057A1B2E22F3</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

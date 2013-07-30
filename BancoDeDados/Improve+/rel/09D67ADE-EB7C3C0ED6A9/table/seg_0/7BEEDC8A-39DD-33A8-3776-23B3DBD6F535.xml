@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BEEDC8A-39DD-33A8-3776-23B3DBD6F535" name="Pesagem">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 21:36:49 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDPesagem" id="D00AC17E-EA1D-8CF2-6236-821431779B11">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 21:37:01 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pesagem_IDPesagem" id="4D2D8166-9D32-A80B-93D5-A068935432BD">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 21:37:31 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Peso" id="8301FFE4-F39A-27EF-EAA5-9DB7975421AC">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 21:38:28 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A21B0C12-75A0-1037-6396-141A17359EDB</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDItemTimeLine" id="D3A6C0B4-3D67-660E-4FF2-176D80D3D482">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 21:51:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>33AF85AE-747C-144D-7113-D7EB26905655</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBB70F32-8990-F3D2-FAE6-C61C8D99AB8D" referredColumn="33AF85AE-747C-144D-7113-D7EB26905655"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B16C7F4F-2FD2-8D40-995E-D56D4E4545F7" name="Pesagem_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 21:37:01 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D00AC17E-EA1D-8CF2-6236-821431779B11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BB327CB-E58C-8207-EFDA-A8CA79B9F641" name="Pesagem_Pesagem_UN">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 21:52:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3A6C0B4-3D67-660E-4FF2-176D80D3D482"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3937AC3F-0E34-B293-3758-F1A324848216" name="ItemTimeLineToPesagem">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 21:51:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3A6C0B4-3D67-660E-4FF2-176D80D3D482"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

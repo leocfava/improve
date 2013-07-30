@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="08B63A07-ABF3-4B16-3C88-14B22D47E3C1" name="EnderecoToEnderecoEmpresa">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:04:23 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<containerWithKeyObject>C2CBAF9D-DADC-BC0D-2BD5-627B73744E40</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>9160E7D4-E5F1-A1B1-9CD5-40B040F728D8</localFKIndex>
+<keyObject>6AA2EE75-2292-72FF-2597-7ED7732A728B</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

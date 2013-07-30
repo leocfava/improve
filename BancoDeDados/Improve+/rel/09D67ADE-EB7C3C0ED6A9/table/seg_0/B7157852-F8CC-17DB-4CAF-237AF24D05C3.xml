@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7157852-F8CC-17DB-4CAF-237AF24D05C3" name="UF">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:41:45 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDUF" id="838662AD-9DA1-81A4-8F42-FD3FDCF9ACA3">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:42:01 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDPais" id="965C10B6-F9DD-B261-158D-88C75447566F">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:43:00 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>EA2ACFCB-D867-790D-0ABB-029B3DBCF591</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48FEF857-179E-52DB-89CB-BDCC7D2207C7" referredColumn="EA2ACFCB-D867-790D-0ABB-029B3DBCF591"/>
+</associations>
+</Column>
+<Column name="Nome" id="F2A4147F-91C8-5FED-9637-DFFBD88D2AF8">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:45:51 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0962D7D0-961B-2C7B-15BF-BB3D490A9D09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sigla" id="901514DD-7FFD-C4E4-2B87-F622A17179AD">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:48:19 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A3B92A7A-3B2F-9F6C-E6BC-9000817715C7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7041D6CB-E345-4BA9-2154-C42A48DDE374" name="UF_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:42:01 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="838662AD-9DA1-81A4-8F42-FD3FDCF9ACA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80BA6C0D-EA84-C0EF-E3F3-FBE147A43F60" name="UF_Nome_UN">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:46:51 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2A4147F-91C8-5FED-9637-DFFBD88D2AF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6128E95-EF42-AC36-65BA-1996E0E13E80" name="PaisToUF">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:42:31 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="965C10B6-F9DD-B261-158D-88C75447566F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

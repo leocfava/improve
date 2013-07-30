@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Improve+" id="019FDDDE-B289-1904-3EEE-6AA3E0584E86" version="3.5">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-12 23:35:02 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>019FDDDE-B289-1904-3EEE-6AA3E0584E86</designId>
+</OSDM_Design>

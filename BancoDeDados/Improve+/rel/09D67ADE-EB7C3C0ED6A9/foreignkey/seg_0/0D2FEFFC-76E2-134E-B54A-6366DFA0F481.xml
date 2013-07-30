@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D2FEFFC-76E2-134E-B54A-6366DFA0F481" name="EspecimeToEspecimeFemea">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:14:30 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<containerWithKeyObject>24B8A391-DB1E-C4E5-B75F-DE5BE4497967</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>B3BDD5E8-E476-1243-5409-1E21EEAC2C41</localFKIndex>
+<keyObject>6D634E4A-25CF-1B54-CFC5-C4A23DCBCE90</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

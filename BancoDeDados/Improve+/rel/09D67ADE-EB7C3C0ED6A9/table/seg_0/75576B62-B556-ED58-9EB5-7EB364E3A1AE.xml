@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75576B62-B556-ED58-9EB5-7EB364E3A1AE" name="Pessoa">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:13:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDPessoa" id="3B4ABE41-1678-0E0C-5353-429EB79108C5">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:13:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDGrupoEmpresarial" id="6746B8A7-0ABC-89A9-B4EF-048166253D81">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:18:00 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>2AC0CB61-6454-2699-C57B-9ECA86DC9DE3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9A84284-91F2-7934-0F2B-32DAD232E2CF" referredColumn="2AC0CB61-6454-2699-C57B-9ECA86DC9DE3"/>
+</associations>
+</Column>
+<Column name="Ativo" id="0CEB6C30-2399-0DC0-E96A-498B54445E17">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 20:02:37 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<notes>O campo Tipo deve aceitar um caracter para indicar se a pessoa é:&lt;br/&gt;C - Cliente, T - Transportadora, E - Empresa cliente do sistema Improve, F - Fornecedor, V - Vendedor</notes>
+<ownerDesignName>Improve+</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>true</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<domain>F2C937B2-770F-E6FD-E123-91C37C8325FC</domain>
+<listOfValues>
+<valueDef value="C" description="Cliente"/>
+<valueDef value="E" description="Empresa usuária do Improve"/>
+<valueDef value="F" description="Fornecedor"/>
+<valueDef value="T" description="Transportador"/>
+<valueDef value="V" description="Vendedor"/>
+</listOfValues>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Foto" id="ED90AB06-228B-AF02-E857-76EA73507C27">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 16:07:22 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<domain>65D6216B-9B8D-E505-31AE-34E713D33055</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataCadastro" id="AB4E86C3-4B1F-7550-692F-A570B0A9219D">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 19:34:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>F1356044-E64C-B1B5-0EE6-31A407E082BA</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EFDBDA81-95CD-A2EF-CF65-D2B66D7896F7" name="Pessoa_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:13:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B4ABE41-1678-0E0C-5353-429EB79108C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B3317EC-A784-9C8A-332E-7A67E9FF7ED0" name="GrupoEmpresarialToPessoa">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:18:00 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6746B8A7-0ABC-89A9-B4EF-048166253D81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

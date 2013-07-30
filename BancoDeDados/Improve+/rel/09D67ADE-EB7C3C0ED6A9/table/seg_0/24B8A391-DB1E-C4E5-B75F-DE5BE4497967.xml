@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24B8A391-DB1E-C4E5-B75F-DE5BE4497967" name="EspecimeFemea">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:13:19 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDEspecimeFemea" id="B93314BB-D997-A1A3-CBA8-8F75E0839A1C">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:13:37 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDEspecime" id="B9794A37-6090-AAEC-4E10-FE8970B4944F">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:14:30 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>32E3241B-7A93-886B-9722-39EBB21E6524</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D2FEFFC-76E2-134E-B54A-6366DFA0F481" referredColumn="32E3241B-7A93-886B-9722-39EBB21E6524"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BEAB581-B2D7-2F92-C044-781C03AD1811" name="EspecimeFemea_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:13:37 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B93314BB-D997-A1A3-CBA8-8F75E0839A1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3BDD5E8-E476-1243-5409-1E21EEAC2C41" name="EspecimeToEspecimeFemea">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:14:30 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9794A37-6090-AAEC-4E10-FE8970B4944F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

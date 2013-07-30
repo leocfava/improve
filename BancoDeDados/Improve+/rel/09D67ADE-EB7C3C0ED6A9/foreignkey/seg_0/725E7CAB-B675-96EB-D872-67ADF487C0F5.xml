@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="725E7CAB-B675-96EB-D872-67ADF487C0F5" name="TagToTagEspecime">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 19:21:34 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<containerWithKeyObject>9925FA75-6E32-5C62-CCAE-7AEA19A194BC</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>7CA61402-928D-F6D3-C18D-91568508A42E</localFKIndex>
+<keyObject>CB5E9157-335D-4FDB-5C12-68CE5734B5F0</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

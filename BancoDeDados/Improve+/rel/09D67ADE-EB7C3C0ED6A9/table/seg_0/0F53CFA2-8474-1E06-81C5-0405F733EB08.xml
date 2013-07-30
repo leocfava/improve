@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F53CFA2-8474-1E06-81C5-0405F733EB08" name="PessoaFisica">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 20:28:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDPessoaFisica" id="06709BF0-375A-827B-18F5-F1CFC4F30F10">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 20:29:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPF" id="D186833F-A122-3646-D3BA-39F90ED5A6C4">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 20:30:32 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDPessoa" id="F8E53B90-8EF6-3ADC-B1C3-B4A49D0461F2">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 20:30:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>3B4ABE41-1678-0E0C-5353-429EB79108C5</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE2D4531-D53E-2A88-9E33-D935CAF8F8DB" referredColumn="3B4ABE41-1678-0E0C-5353-429EB79108C5"/>
+</associations>
+</Column>
+<Column name="Nome" id="76DA0273-D9B6-9303-11B7-E6F49C6477C2">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 21:55:48 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0962D7D0-961B-2C7B-15BF-BB3D490A9D09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73AA6031-0296-2281-3E44-FAF9D24AE37A" name="PessoaFisica_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 20:29:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06709BF0-375A-827B-18F5-F1CFC4F30F10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B443B437-6342-4651-96CC-7EFE4BA67F28" name="PessoaFisica_CPF_UN">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 20:31:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D186833F-A122-3646-D3BA-39F90ED5A6C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27414C8F-C39A-F63D-2BCE-5B164B92AE32" name="PessoaToPessoaFisica">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 20:30:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8E53B90-8EF6-3ADC-B1C3-B4A49D0461F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

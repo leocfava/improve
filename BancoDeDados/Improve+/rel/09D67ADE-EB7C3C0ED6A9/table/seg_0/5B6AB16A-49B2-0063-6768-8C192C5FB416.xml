@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B6AB16A-49B2-0063-6768-8C192C5FB416" name="UnidadeMedida">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:50:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDUnidadeMedida" id="B36E8BD6-51B0-695E-C013-B0E8CCA6CD03">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:53:50 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="536071C5-97EF-8289-4CBD-C68E87C8EECB">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:53:50 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0962D7D0-961B-2C7B-15BF-BB3D490A9D09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDTipoUnidadeMedida" id="7AFA0395-161B-F1CE-3496-2FCE631B0E71">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:54:02 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>9538DDAC-714C-B34E-1CBA-548876A45230</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCA3F1F8-3A41-699A-BB16-AC4427203813" referredColumn="9538DDAC-714C-B34E-1CBA-548876A45230"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50421A12-2D74-651B-D11A-468B2C099C8F" name="UnidadeMedida_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:53:50 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B36E8BD6-51B0-695E-C013-B0E8CCA6CD03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FD31A63-9426-A8F4-F8BC-5B8E3D2970CE" name="TipoUnidadeMedidaToUnidadeMedida">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:54:02 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AFA0395-161B-F1CE-3496-2FCE631B0E71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

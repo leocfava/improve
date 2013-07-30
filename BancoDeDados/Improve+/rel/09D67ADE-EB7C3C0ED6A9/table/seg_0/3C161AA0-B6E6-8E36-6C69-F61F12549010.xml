@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C161AA0-B6E6-8E36-6C69-F61F12549010" name="Taxonomia">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 19:55:52 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDTaxonomia" id="9ED221A7-1505-B188-72A3-39E3E06C2EC0">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 19:56:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Denominacao" id="461163C5-D31D-8550-A83F-6C2E65606241">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 19:56:44 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>77F60A4C-63CC-DA02-9FB4-761691B20D12</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo" id="5FDDEFB2-EE5D-BABD-ACEB-151DBE044640">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 19:57:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5F5CD5D5-C22B-F818-5C4B-47B30CBB0C94</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDTaxonomiaPai" id="98AAA3CC-4762-5AA5-0573-8F46174E6BEE">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 19:57:19 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>9ED221A7-1505-B188-72A3-39E3E06C2EC0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C48999F2-6C25-AA66-15A7-7B9A80F6F7A5" referredColumn="9ED221A7-1505-B188-72A3-39E3E06C2EC0"/>
+</associations>
+</Column>
+<Column name="Ativo" id="CA92620E-E84B-EBAB-2D07-82CD57E90503">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 19:59:32 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<defaultValue>true</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>F2C937B2-770F-E6FD-E123-91C37C8325FC</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeItemTaxonomia" id="9AF078F4-DEFF-7437-4B31-2AFF97360EA6">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 20:03:07 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0962D7D0-961B-2C7B-15BF-BB3D490A9D09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDGrupoEmpresarial" id="7D4EFB36-BAD5-BB02-7F19-0011B19E34C3">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 20:15:55 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>2AC0CB61-6454-2699-C57B-9ECA86DC9DE3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FE517C6-FF2F-DCC0-B99C-F3D9BAC9DE4E" referredColumn="2AC0CB61-6454-2699-C57B-9ECA86DC9DE3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3679976B-DEAC-49E7-E48D-057A1B2E22F3" name="Taxonomia_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 19:56:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ED221A7-1505-B188-72A3-39E3E06C2EC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A27B84CE-46BA-51AB-8F46-25450B681210" name="TaxonomiaPaiToTaxonomiaFilho">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 19:57:19 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98AAA3CC-4762-5AA5-0573-8F46174E6BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87036291-C35F-44EA-3447-42D7E44D5E6E" name="GrupoEmpresarialToTaxonomia">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-14 20:15:55 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D4EFB36-BAD5-BB02-7F19-0011B19E34C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BCE539B-7788-091C-4A30-B5B6BCA6BBC2" name="ItemTimeLine">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 13:58:15 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDItemTimeLine" id="33AF85AE-747C-144D-7113-D7EB26905655">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 13:58:32 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDTimeline" id="09D9F015-94E3-518F-0190-D2950F13D0D0">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:21:07 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>60E24E42-1DD6-E3D9-CEB2-FD00876D0501</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="036F7319-E6A6-0A9B-1615-071FFE36CC6C" referredColumn="60E24E42-1DD6-E3D9-CEB2-FD00876D0501"/>
+</associations>
+</Column>
+<Column name="Data" id="6E82ADD5-58DE-5F12-6CFE-D5C6D2185155">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:21:30 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>D70C9442-647D-832B-8824-B63D5AB8F345</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDRegistroZootecnico" id="69AFC915-EE20-7071-1597-CE503CB8D39E">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:42:54 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>C4D31116-1371-8D2E-E2AB-62E441F19CDB</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C76E8327-49FB-1E87-2369-34D4DCA6AD69" referredColumn="C4D31116-1371-8D2E-E2AB-62E441F19CDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFD682FD-82ED-D202-232A-84CD8F585C36" name="ItemTimeLine_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-24 13:58:32 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33AF85AE-747C-144D-7113-D7EB26905655"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5185EF2-F701-0F2C-B7EF-5A5983E7092E" name="ItemTimeLineToItemTimeLine">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:20:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="E2224B2F-46EE-B2D8-F455-A589D7AC2400" name="TimelineToItemTimeLine">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:21:07 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09D9F015-94E3-518F-0190-D2950F13D0D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A74E1313-8E99-5914-7B61-C1694A977601" name="RegistroZootecnicoToItemTimeLine">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:42:54 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69AFC915-EE20-7071-1597-CE503CB8D39E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

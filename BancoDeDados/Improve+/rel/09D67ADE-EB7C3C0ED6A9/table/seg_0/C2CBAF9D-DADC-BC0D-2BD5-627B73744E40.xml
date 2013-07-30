@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2CBAF9D-DADC-BC0D-2BD5-627B73744E40" name="EnderecoPessoa">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:20:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDEnderecoPessoa" id="A1321F05-90AB-B9D9-F2FB-121989F93C25">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:22:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDEndereco" id="F7AB0121-9A7E-8AD8-455F-2AE1C00DFB3A">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:04:23 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>2AF4B0FD-FC69-5E34-774C-0911CA9DB375</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08B63A07-ABF3-4B16-3C88-14B22D47E3C1" referredColumn="2AF4B0FD-FC69-5E34-774C-0911CA9DB375"/>
+</associations>
+</Column>
+<Column name="IDPessoa" id="7833A3BC-03E1-7497-B317-0C550712140B">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:26:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>3B4ABE41-1678-0E0C-5353-429EB79108C5</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A90ABB7D-A2CC-619F-B707-5C8664E9A823" referredColumn="3B4ABE41-1678-0E0C-5353-429EB79108C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="955A0476-CD5F-2B18-0FED-7A84FEEA8882" name="EnderecoEmpresa_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:22:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1321F05-90AB-B9D9-F2FB-121989F93C25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC018E98-9A2C-FC45-D45F-420A85FEED49" name="EnderecoEmpresa_EnderecoEmpresa_UN">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 01:22:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7833A3BC-03E1-7497-B317-0C550712140B"/>
+<colUsage columnID="F7AB0121-9A7E-8AD8-455F-2AE1C00DFB3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9160E7D4-E5F1-A1B1-9CD5-40B040F728D8" name="EnderecoToEnderecoEmpresa">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:04:23 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7AB0121-9A7E-8AD8-455F-2AE1C00DFB3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E998B5C-671F-3F8A-C8D1-2AAC1613E86A" name="PessoaToEnderecoPessoa">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:26:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7833A3BC-03E1-7497-B317-0C550712140B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

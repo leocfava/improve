@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDF507CC-F61E-900F-6052-925155BDD2F7" name="Tag">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 16:45:23 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDTag" id="BDF963C6-CD7D-D39C-EC41-2204EDCE0DA2">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 16:45:48 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="DF917D30-BB5B-15F5-10D7-CB89CEC893DE">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 16:46:15 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>77F60A4C-63CC-DA02-9FB4-761691B20D12</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Situacao" id="8BD78598-03CE-6640-0878-E5E869042C2E">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 16:46:15 UTC</createdTime>
+<comment>Situacoes possíveis:&lt;br/&gt;&lt;br/&gt;A - Ativa&lt;br/&gt;I - Inativa&lt;br/&gt;</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>31AB0CD6-802B-E71A-7C78-5A171862EACE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDGrupoEmpresarial" id="D5E50350-252B-FD32-B3D7-72551CC12BF3">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:51:34 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>2AC0CB61-6454-2699-C57B-9ECA86DC9DE3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F74D8F3-FDD6-9307-81B5-E85D4D615150" referredColumn="2AC0CB61-6454-2699-C57B-9ECA86DC9DE3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB5E9157-335D-4FDB-5C12-68CE5734B5F0" name="Tag_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-22 16:45:48 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDF963C6-CD7D-D39C-EC41-2204EDCE0DA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81285394-8F01-33B5-A265-CFBE31B77C93" name="GrupoEmpresarialToTag">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-26 20:51:34 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5E50350-252B-FD32-B3D7-72551CC12BF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

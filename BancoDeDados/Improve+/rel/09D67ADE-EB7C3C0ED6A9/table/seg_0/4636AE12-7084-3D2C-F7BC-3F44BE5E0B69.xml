@@ -1,0 +1,215 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4636AE12-7084-3D2C-F7BC-3F44BE5E0B69" name="Empresa">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-12 23:56:05 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDEmpresa" id="8D0A3DA0-C67F-355C-FA87-425A014959E8">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-12 23:58:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeEmpresarial" id="8A4A6175-B47C-2D3F-1F44-6AF5A17F40F3">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-12 23:58:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0962D7D0-961B-2C7B-15BF-BB3D490A9D09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNPJ" id="64C213BC-3491-2C87-AC31-057FC57B7F08">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 00:10:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>66872638-5F1A-C1D7-5807-B8DF5207C0F0</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="InscricaoMunicipal" id="75C65587-DD51-D31F-102D-D330A20E7453">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 00:10:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>91C50286-32A5-F181-9804-035CAF8A5600</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="InscricaoEstadual" id="775EC3F4-3D54-62EC-DDF8-5B73E431EC26">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 00:10:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F4D28047-2128-0FFC-974D-582EA00C8A19</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeFantasia" id="B75B7B7D-C20C-733D-E4CD-DCD62A2A3F41">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 00:10:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0962D7D0-961B-2C7B-15BF-BB3D490A9D09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDEmpresaMatriz" id="9B5DF006-8139-E387-003F-B045EE5A1677">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:07:06 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>8D0A3DA0-C67F-355C-FA87-425A014959E8</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71F9DB8E-206F-B6D6-3091-5EDBA410B6FB" referredColumn="8D0A3DA0-C67F-355C-FA87-425A014959E8"/>
+</associations>
+</Column>
+<Column name="IDPessoa" id="5A387FA6-1F98-D608-802D-95E4153BDA43">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:17:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>3B4ABE41-1678-0E0C-5353-429EB79108C5</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50EA6845-A860-D7FC-EEDA-F18BEF8D1140" referredColumn="3B4ABE41-1678-0E0C-5353-429EB79108C5"/>
+</associations>
+</Column>
+<Column name="IDCNAE" id="65FD4E01-C551-2EE2-79EC-4CDA638A6720">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 21:43:01 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>F70663F1-066C-CE3A-2FD7-1477A92A218D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2C518F5-78F2-6B53-8D4B-4C39A7E2F973" referredColumn="F70663F1-066C-CE3A-2FD7-1477A92A218D"/>
+</associations>
+</Column>
+<Column name="IDNaturezaJuridica" id="5486613B-CBB9-1C39-52BE-A6241162616F">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:26:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>29840F8F-807E-5D3A-3145-6BC79D758045</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0285C6F8-78A7-B6EC-60F2-847E9152ACB5" referredColumn="29840F8F-807E-5D3A-3145-6BC79D758045"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="765F0373-8656-F739-6248-105F82076C3E" name="Empresa_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-12 23:58:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D0A3DA0-C67F-355C-FA87-425A014959E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2F74CC7-2170-7D7B-EDFF-0AADF2F516E2" name="Empresa_UN_CNPJ">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 00:10:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64C213BC-3491-2C87-AC31-057FC57B7F08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45DC626B-427A-161D-7EA5-CA767E684720" name="Empresa_GrupoEmpresarialEmpresa_UN">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 00:17:10 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D0A3DA0-C67F-355C-FA87-425A014959E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB2B2B07-CC80-ABDB-BF0F-53811E874E98" name="EmpresaMatrizToEmpresaFilial">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:07:06 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B5DF006-8139-E387-003F-B045EE5A1677"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="626360A0-386E-9644-9A37-71CD4381CB76" name="PessoaToEmpresa">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:17:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A387FA6-1F98-D608-802D-95E4153BDA43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E565244-0484-F0B2-4EFE-6A82A2D76E62" name="CNAEToEmpresa">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 21:43:01 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65FD4E01-C551-2EE2-79EC-4CDA638A6720"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F7E71E4-1D73-F833-B7DE-BCB954660F3E" name="NaturezaJuridicaToEmpresa">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 22:26:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5486613B-CBB9-1C39-52BE-A6241162616F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

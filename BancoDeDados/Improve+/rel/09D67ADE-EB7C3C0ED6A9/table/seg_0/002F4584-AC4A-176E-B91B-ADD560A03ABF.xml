@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="002F4584-AC4A-176E-B91B-ADD560A03ABF" name="Telefone">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:10:01 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDTelefone" id="04A6289A-AA0C-9B4A-582A-0E4E39538B68">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:10:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="83312745-FFEF-7DF6-D9E1-C7753CD850F1">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:11:30 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDLabelTipoFormaContato" id="11429C04-D4ED-C6BC-6F37-626C438557AC">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:21:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDF6539C-5E3A-C952-7EB3-455864B8FCB8</domain>
+<delegate>D227B42A-A67D-CD6F-44A5-E00BE5AEC8FA</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A48914F-DF19-CEC2-A832-EBCE8E7EFDDE" referredColumn="D227B42A-A67D-CD6F-44A5-E00BE5AEC8FA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8C189E4-4408-E634-CED8-2C930F42D2A1" name="Telefone_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:10:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04A6289A-AA0C-9B4A-582A-0E4E39538B68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E49F4D5-932A-F27A-2B7A-C67D19DAACDD" name="LabelTipoFormaContatoToTelefone">
+<createdBy>Leonardo</createdBy>
+<createdTime>2013-07-13 02:21:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Improve+</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11429C04-D4ED-C6BC-6F37-626C438557AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
